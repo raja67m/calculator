@@ -17,17 +17,26 @@ background-color: aliceblue;
    background: white;
    box-shadow:  24px 24px 47px #929292,
                 -24px -24px 47px #ffffff;
-   
+   padding:10px;
 }
 .calculator-output{
-   font-size: 2rem;
-   text-align: end;
-   padding: 25px;
-   background: rgb(109, 107, 107);
-   border-radius: 29px 29px 0 0;
-
-  
+padding: 15px;
+border-radius: 5px;
+border:1px solid #bbb;
+margin-top:10px;
+transition:.2s ease-in-out;
+font-size:20px; 
+text-align: right; 
+font-weight:bold;
+outline: none;
 }
+.calculator-output:hover{
+   border: 1px solid #bbb;
+  -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
 .calculator-btns{
 display: grid;
 grid-template-columns:repeat(4,1fr);
@@ -49,14 +58,17 @@ margin-top: 20px;
    transition: 0.5s;
 }
 .calculator-key-equal:hover{
-   background:rgb(249, 175, 119);
+   background:rgb(249, 175, 119);  
+   border: 1px solid #efeeee;
+   -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 
 }
-.calculator-key{
-   padding: 10px 0 20px;
+.calculator-key ,.calculator-Ac , .calculator-Del{
+   padding: 15px;
    margin:10px;
    cursor: pointer;
-  background-color: white;
+   background-color: white;
    border: none;
    border-radius: 5px;
    font-size: 18px;
@@ -67,5 +79,22 @@ margin-top: 20px;
 
 }
 .calculator-key:hover{
-   background:rgb(213, 211, 211);
+   background:rgb(232, 230, 230); 
+   border: 1px solid #efeeee;
+   -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.calculator-Ac:hover{
+   background:rgb(249, 175, 119);  
+   border: 1px solid #efeeee;
+   -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+
+}
+.calculator-Del:hover{
+   background:rgb(249, 175, 119);  
+   border: 1px solid #efeeee;
+   -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+
 }
