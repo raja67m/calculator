@@ -23,8 +23,8 @@ background-color: aliceblue;
 .calculator-output{
 border-radius: 5px;
 border:1px solid #bbb;
-padding: 14px;
-margin-top: 13px;
+padding: 14px 17px;
+margin-top: 16px;
 margin-left: 6px;
 transition:.2s ease-in-out;
 font-size:19px; 
@@ -68,7 +68,7 @@ margin-top: 20px;
 }
 .calculator-key ,.calculator-Ac , .calculator-Del{
    padding: 10px;
-   margin:10px;
+   margin:7px;
    cursor: pointer;
    background-color: white;
    border: none;
