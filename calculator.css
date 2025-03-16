@@ -17,11 +17,10 @@ background-color: aliceblue;
    background: white;
    box-shadow:  24px 24px 47px #929292,
                 -24px -24px 47px #ffffff;
-     padding:13px;
+     padding:8px;
    
 }
 .calculator-output{
-
 border-radius: 5px;
 border:1px solid #bbb;
 padding: 14px;
@@ -43,12 +42,12 @@ outline: none;
 .calculator-btns{
 display: grid;
 grid-template-columns:repeat(4,1fr);
-grid-gap:2px;
+grid-gap:1px;
 margin-top: 20px;
 }
 .calculator-key-equal{
    grid-column: 1/span 4;
-   padding: 10px 0 20px;
+   padding:15px;
    margin: 10px;
    background-color: white;
    border: none;
@@ -68,7 +67,7 @@ margin-top: 20px;
 
 }
 .calculator-key ,.calculator-Ac , .calculator-Del{
-   padding: 15px;
+   padding: 10px;
    margin:10px;
    cursor: pointer;
    background-color: white;
