@@ -23,7 +23,7 @@ background-color: aliceblue;
 .calculator-output{
 border-radius: 5px;
 border:1px solid #bbb;
-padding: 14px 17px;
+padding: 14px 14px;
 margin-top: 16px;
 margin-left: 6px;
 transition:.2s ease-in-out;
