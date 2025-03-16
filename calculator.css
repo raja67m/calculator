@@ -17,15 +17,18 @@ background-color: aliceblue;
    background: white;
    box-shadow:  24px 24px 47px #929292,
                 -24px -24px 47px #ffffff;
-   padding:10px;
+     padding:13px;
+   
 }
 .calculator-output{
-padding: 15px;
+
 border-radius: 5px;
 border:1px solid #bbb;
-margin-top:10px;
+padding: 14px;
+margin-top: 13px;
+margin-left: 6px;
 transition:.2s ease-in-out;
-font-size:20px; 
+font-size:19px; 
 text-align: right; 
 font-weight:bold;
 outline: none;
